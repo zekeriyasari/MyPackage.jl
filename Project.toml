@@ -1,7 +1,7 @@
 name = "MyPackage"
 uuid = "c4d454ac-79bd-4e30-8f49-6ece61211073"
 authors = ["Zekeriya SARI"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1.4"

@@ -15,6 +15,8 @@ Adds one to `x`.
 """
 addone(x) = x + 1
 
-export greet, addone
+struct Object end 
+
+export greet, addone, Object
 
 end # module
