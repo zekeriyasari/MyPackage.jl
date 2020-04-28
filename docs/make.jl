@@ -6,11 +6,16 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
-    repo="https://github.com/zekeriyasari/MyPackage.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/zekeriyasari/MyPackage.jl.git",
     sitename="MyPackage.jl",
     authors="Zekeriya SARI",
 )
 
 deploydocs(;
-    repo="github.com/zekeriyasari/MyPackage.jl",
+    repo="github.com/zekeriyasari/MyPackage.jl.git",
+    branch = "gh-pages",
+    devbranch = "master",
+    devurl = "dev",
+    versions = ["stable" => "v^", "v#.#", "dev" => "dev"],
+    push_preview = false
 )
