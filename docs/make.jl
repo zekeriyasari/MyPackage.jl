@@ -13,5 +13,4 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/zekeriyasari/MyPackage.jl.git"
-    
 )
