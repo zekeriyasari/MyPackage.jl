@@ -12,10 +12,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/zekeriyasari/MyPackage.jl.git",
-    branch = "gh-pages",
-    devbranch = "master",
-    devurl = "dev",
-    versions = ["stable" => "v^", "v#.#", "dev" => "dev"],
-    push_preview = false
+    repo="github.com/zekeriyasari/MyPackage.jl.git"
 )
