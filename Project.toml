@@ -1,0 +1,13 @@
+name = "MyPackage"
+uuid = "c4d454ac-79bd-4e30-8f49-6ece61211073"
+authors = ["Zekeriya SARI"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
