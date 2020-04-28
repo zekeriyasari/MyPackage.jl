@@ -9,7 +9,6 @@ makedocs(;
     repo="https://github.com/zekeriyasari/MyPackage.jl/blob/{commit}{path}#L{line}",
     sitename="MyPackage.jl",
     authors="Zekeriya SARI",
-    assets=String[],
 )
 
 deploydocs(;
