@@ -15,5 +15,5 @@ deploydocs(;
     repo="github.com/zekeriyasari/MyPackage.jl.git",
     devbranch = "master",
     devurl = "dev",
-    versions = ["stable" => "v^", "v#.#", devurl => devurl],
+    versions = ["stable" => "v^", "v#.#"],
 )
