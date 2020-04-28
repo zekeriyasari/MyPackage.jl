@@ -12,5 +12,8 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/zekeriyasari/MyPackage.jl.git"
+    repo="github.com/zekeriyasari/MyPackage.jl.git",
+    devbranch = "master",
+    devurl = "dev",
+    versions = ["stable" => "v^", "v#.#", devurl => devurl],
 )
