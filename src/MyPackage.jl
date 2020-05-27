@@ -1,22 +1,9 @@
 module MyPackage
 
-"""
-    greet() 
+include("sources.jl")
+# include("systems.jl")
+# include("sinks.jl")
 
-Prints a greetin message. 
-"""
-greet() = print("Hello World!")
-
-
-"""
-    addone(x) 
-
-Adds one to `x`.
-"""
-addone(x) = x + 1
-
-struct Object end 
-
-export greet, addone, Object
+export @def 
 
 end # module

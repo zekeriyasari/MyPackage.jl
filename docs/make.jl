@@ -1,5 +1,7 @@
 using Documenter, MyPackage
 
+DocMeta.setdocmeta!(MyPackage, :DocTestSetup, :(using MyPackage); recursive=true)
+
 makedocs(;
     modules=[MyPackage],
     format=Documenter.HTML(),
