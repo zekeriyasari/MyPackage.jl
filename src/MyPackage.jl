@@ -7,7 +7,8 @@ Prints a greetin message.
 """
 greet() = print("Hello World!")
 
-# TODO: Test issue. @zekeriyasari
+
+function some_test_function() end 
 
 """
     addone(x) 
